@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import ContentSvg4 from "../assets/images/reh-logo.png";
-import ContentSvg3 from "../assets/images/And-Log.png";
 import ContentSvg2 from "../assets/images/imp-logo.png";
 import ContentSvg from "../assets/images/InsightLogo.png";
 import ContentImg from "../assets/images/content-img.png";
@@ -11,15 +10,22 @@ import VimeoSvg from "../assets/images/KALAKR LOGO.png";
 import SoundCloudImg from "../assets/images/sound-cloud-img.png";
 import SoundCloudSvg from "../assets/images/InsightFilmsLogo.png";
 import ContentImg2 from "../assets/images/content-img2.png";
-import ContentImg3 from "../assets/images/content-img3.png";
 import GalleryImg from "../assets/images/gallery-img.png";
 import InsightFilmsPopup from "./InsightFilmsPopUp";
 import InsightSolutionsPopup from "./InsightSolutionsPopUp";
 import PinnaclePopup from "./PinnaclePopUp";
 import KalakarPopup from "./KalakarPopUp";
-import AndalusianPopup from "./AndalusianPopUp";
 import RehnumaPopup from "./RehnumaPopUp";
 import ImperialPopup from "./ImperialPopUp";
+
+const projectLinks = {
+  InsightSolutions: "https://insightsolutions.vercel.app/",
+  Kalakar: "https://kalakar-digital.vercel.app/",
+  PinnacleEvents: "https://pinnacleevents.vercel.app/",
+  InsightFilms: "https://insight-films.vercel.app/",
+  ImperialMarquees: "https://imperial-eosin.vercel.app/",
+  RehnumaNews: "https://rehnumanews.tv/",
+};
 
 const Portfolio = () => {
   const [activePopup, setActivePopup] = useState(null);
@@ -70,7 +76,15 @@ const Portfolio = () => {
                 <p className="overlay-text">Insight Solutions</p>
               </div>
             </div>
-            <p className="Corporate zoom_in">Insight Solutions</p>
+            <a
+              href={projectLinks.InsightSolutions}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="Corporate zoom_in"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Insight Solutions
+            </a>
 
             <div
               className="second-row-portfolio popup-btn zoom_in"
@@ -83,22 +97,15 @@ const Portfolio = () => {
                   <p className="overlay-text">Pinnacle Events</p>
                 </div>
               </div>
-              <p className="Corporate">Pinnacle Events</p>
-              
-            </div>
-
-            <div
-              className="second-row-portfolio popup-btn zoom_in"
-              onClick={() => handlePopupOpen("AndalusianBanquets")}
-            >
-              <div className="image-container">
-                <img className="main-portfolio-img" src={ContentImg3} alt="content-img2" />
-                <div className="overlay">
-                  <img src={ContentSvg3} alt="content-svg" className="vimeo-icon" />
-                  <p className="overlay-text">Andalusian Banquets</p>
-                </div>
-              </div>
-              <p className="Corporate">Andalusian Banquets</p>
+              <a
+                href={projectLinks.PinnacleEvents}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="Corporate"
+                onClick={(e) => e.stopPropagation()}
+              >
+                Pinnacle Events
+              </a>
             </div>
           </div>
           <div>
@@ -113,7 +120,15 @@ const Portfolio = () => {
                   <p className="overlay-text">Kalakar</p>
                 </div>
               </div>
-              <p className="Corporate zoom_in">Kalakar</p>
+              <a
+                href={projectLinks.Kalakar}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="Corporate zoom_in"
+                onClick={(e) => e.stopPropagation()}
+              >
+                Kalakar
+              </a>
             </div>
             <div
               className="second-row-portfolio popup-btn zoom_in"
@@ -126,7 +141,15 @@ const Portfolio = () => {
                   <p className="overlay-text">Insight Films</p>
                 </div>
               </div>
-              <p className="Corporate">Insight Films</p>
+              <a
+                href={projectLinks.InsightFilms}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="Corporate"
+                onClick={(e) => e.stopPropagation()}
+              >
+                Insight Films
+              </a>
             </div>
           </div>
           <div className="gallery-bank-section">
@@ -138,7 +161,15 @@ const Portfolio = () => {
                   <p className="overlay-text">The Imperial Marquees</p>
                 </div>
               </div>
-              <p className="Corporate">The Imperial Marquees</p>
+              <a
+                href={projectLinks.ImperialMarquees}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="Corporate"
+                onClick={(e) => e.stopPropagation()}
+              >
+                The Imperial Marquees
+              </a>
             </div>
             <div
               className="second-row-portfolio popup-btn zoom_in"
@@ -151,7 +182,15 @@ const Portfolio = () => {
                   <p className="overlay-text">Rehnuma News</p>
                 </div>
               </div>
-              <p className="Corporate">Rehnuma News</p>
+              <a
+                href={projectLinks.RehnumaNews}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="Corporate"
+                onClick={(e) => e.stopPropagation()}
+              >
+                Rehnuma News
+              </a>
             </div>
           </div>
         </div>
@@ -169,9 +208,6 @@ const Portfolio = () => {
       )}
       {activePopup === "Kalakar" && (
         <KalakarPopup isVisible onClose={handlePopupClose} />
-      )}
-      {activePopup === "AndalusianBanquets" && (
-        <AndalusianPopup isVisible onClose={handlePopupClose} />
       )}
       {activePopup === "InsightFilms" && (
         <InsightFilmsPopup isVisible onClose={handlePopupClose} />

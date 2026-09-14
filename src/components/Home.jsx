@@ -38,12 +38,8 @@ import CV from "../assets/pdf/Rafay-Hussain-CV.pdf";
 import { Link } from "react-router-dom";
 const Home = () => {
   //Text
-  const firstTexts = ["Designer", "Developer", "Freelancer"];
-  const secondTexts = [
-    "Front-End Web Developer",
-    "Wordpress Developer",
-    "UI/UX Designer",
-  ];
+  const firstTexts = ["Software Engineer"];
+  const secondTexts = ["Software Engineer"];
   const intervalTime = 600;
 
   const [firstTextIndex, setFirstTextIndex] = useState(0);

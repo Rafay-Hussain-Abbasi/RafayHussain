@@ -134,10 +134,10 @@ const Resume = () => {
                 </div>
               </div>
               <div className="small_yellow_border_main">
-                <p className="bachelor">WEB DEVELOPER</p>
+                <p className="bachelor">SOFTWARE ENGINEER</p>
                 <p className="cursus university">Insight Solutions / March2023 - Current</p>
                 <p className="cursus">
-                  As a skilled web developer at Insight Solutions Pvt Ltd, I'm entrusted with creating dynamic and user-centric websolutions that drive our clients' success. Leveraging my expertise, I contribute to the development and maintenance of innovative websites.
+                  As a Software Engineer at Insight Solutions Pvt Ltd, I'm entrusted with creating dynamic and user-centric web solutions that drive our clients' success. Leveraging my expertise, I contribute to the development and maintenance of innovative websites.
                 </p>
               </div>
             </div>
@@ -148,10 +148,10 @@ const Resume = () => {
                 </div>
               </div>
               <div className="small_yellow_border_main">
-                <p className="bachelor">WORDPRESS Developer</p>
+                <p className="bachelor">SOFTWARE ENGINEER</p>
                 <p className="cursus university">CodeBucketz / May 2023 - July 2023</p>
                 <p className="cursus">
-                As a WordPress Developer, I specialized in creating dynamic, visually engaging websites with WordPress, delivering customized, user-friendly solutions optimized for performance.
+                As a Software Engineer, I specialized in creating dynamic, visually engaging websites with WordPress, delivering customized, user-friendly solutions optimized for performance.
                 </p>
               </div>
               
@@ -163,10 +163,10 @@ const Resume = () => {
                 </div>
               </div>
               <div className="small_yellow_border_main">
-                <p className="bachelor">FRONT-END DEVELOPER</p>
+                <p className="bachelor">SOFTWARE ENGINEER</p>
                 <p className="cursus university">Interns.pk / November 2022 - December 2022</p>
                 <p className="cursus">
-                As a Front-End Developer, I played a key role in designing and developing responsive websites using HTML, CSS, and JavaScript. I translated design mockups into functional sites that enhanced the user experience across devices.
+                As a Software Engineer, I played a key role in designing and developing responsive websites using HTML, CSS, and JavaScript. I translated design mockups into functional sites that enhanced the user experience across devices.
                 </p>
               </div>
             </div>

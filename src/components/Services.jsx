@@ -46,7 +46,7 @@ const Services = () => {
               </div>
               <p className="services-text services-text2">WORDPRESS </p>
               <p className="molestie">
-              Experienced WordPress developer specializing in dynamic, user-friendly websites. Skilled in theme customization and responsive design with functionality
+              Experienced in building dynamic, user-friendly websites with WordPress. Skilled in theme customization and responsive design with functionality
               </p>
              
             </Link>
@@ -58,7 +58,7 @@ const Services = () => {
               </div>
               <p className="services-text services-text3">WEB DEVELOPMENT</p>
               <p className="molestie">
-              As a web developer, I create interactive experiences using HTML, CSS, JavaScript, and React. Specializing in custom web apps, responsive design, and dynamic interfaces
+              As a Software Engineer, I create interactive experiences using HTML, CSS, JavaScript, and React. Specializing in custom web apps, responsive design, and dynamic interfaces
               </p>
              
             </Link>

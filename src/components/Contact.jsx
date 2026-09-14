@@ -62,7 +62,7 @@ const Contact = () => {
             <div>
               <p className="contact-email-text">PHONE</p>
               <p className="contact-email">
-                <a href="tel:+923407838842">+92 3407838842</a>
+                <a href="tel:+4915216125275">(+49) 1521 6125275</a>
               </p>
             </div>
           </div>

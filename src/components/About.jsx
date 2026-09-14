@@ -30,7 +30,7 @@ const AboutSection = () => {
           <div className="line"></div>
         </div>
         <p className="section-sub-text about-sub-text zoom_in">
-          Hi, my name is <span>Rafay Hussain</span>, a dedicated Software Engineer with a passion for creating impactful web solutions. Specializing in front-end development, UI/UX design, and WordPress development, I thrive on delivering seamless, user-centric digital experiences. With a solid foundation in HTML, CSS, JavaScript, and design tools like Figma and Adobe XD, I translate concepts into functional, visually engaging websites. I'm always eager to learn, grow, and contribute to meaningful projects that drive success for both users and businesses.
+          Hi, my name is <span>Rafay Hussain</span>, a dedicated Software Engineer with a passion for creating impactful web solutions. I thrive on delivering seamless, user-centric digital experiences. With a solid foundation in HTML, CSS, JavaScript, and design tools like Figma and Adobe XD, I translate concepts into functional, visually engaging websites. I'm always eager to learn, grow, and contribute to meaningful projects that drive success for both users and businesses.
         </p>
         <div className="about-detail-main">
           <p className="about-detail">Name</p>
@@ -44,9 +44,9 @@ const AboutSection = () => {
           <p className="about-detail">Phone</p>
           <a
             className="about-detail-info email"
-            href="tel:+923407838842"
+            href="tel:+4915216125275"
           >
-            (+92) 3407838842
+            (+49) 1521 6125275
           </a>
         </div>
         <div className="about-detail-main">
