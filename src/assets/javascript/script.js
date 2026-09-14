@@ -6,12 +6,12 @@ $(document).ready(function () {
 });
 
 /*------------------------------------- Designer Text Animation -------------------------------------*/
-firstText = "Designer";
-secondText = "Developer";
-thridText = "Freelancer"
-fourthText = "Freelancer";
-fifthText = "Back-End Web Developer";
-sixthText = "Full stack Developer"
+firstText = "Software Engineer";
+// secondText = "Developer";
+// thridText = "Freelancer"
+// fourthText = "Freelancer";
+// fifthText = "Back-End Web Developer";
+// sixthText = "Full stack Developer"
 intervalTime = 600;
 window.load = displayText();
 window.load = displayText2();
