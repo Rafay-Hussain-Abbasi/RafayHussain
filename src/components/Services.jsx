@@ -1,6 +1,5 @@
 import React from "react";
 import UiUxSvg from "../assets/images/svg/ui-ux.svg";
-import DownArrow from "../assets/images/svg/down-arrow.svg";
 import VisualBranding from "../assets/images/svg/visual-branding.svg";
 import WebDevelopement from "../assets/images/svg/web-development.svg";
 import AppDevelopement from "../assets/images/svg/app-development.svg";

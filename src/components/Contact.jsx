@@ -1,13 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 const Contact = () => {
-  const [inputState, setInputState] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: "",
-  });
-
   return (
     <>
       {/* <!-- ====================================== Section Contact ===================================== --> */}

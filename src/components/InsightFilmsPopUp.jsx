@@ -1,5 +1,4 @@
 import React from "react";
-import CloseSvg from "../assets/images/svg/colan-icon.svg";
 import PopUpImg from "../assets/media/insF1.png";
 import PopUpImg2 from "../assets/media/insF2.png";
 import PopUpImg3 from "../assets/media/insF3.png";
@@ -11,7 +10,7 @@ const InsightFilmsPopup = ({ isVisible, onClose }) => {
     <div className={`popup-wrap ${isVisible ? "visible" : ""}`}>
       <div className="popup-box transform-in">
         <img className="pop-up-img1" src={PopUpImg} alt="pop-up-img1" />
-        <a className="close-btn popup-close" href="#" onClick={onClose}>
+        <button type="button" className="close-btn popup-close" onClick={onClose}>
           <svg
             width="40px"
             height="40px"
@@ -45,7 +44,7 @@ const InsightFilmsPopup = ({ isVisible, onClose }) => {
               ></path>
             </g>
           </svg>{" "}
-        </a>
+        </button>
         <p className="corpo">Insight Films</p>
         
         <div className="corporate_main">

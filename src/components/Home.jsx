@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import ProfileImg from "../assets/images/profile-img.png";
 import EmailSvg from "../assets/images/svg/email-svg.svg";
 import LinkedinSvg from "../assets/images/svg/linkedIn-svg.svg";
@@ -31,17 +31,16 @@ import Resume from "./Resume";
 import Services from "./Services";
 import Portfolio from "./Portfolio";
 import Pricing from "./Pricing";
-import Blog from "./Blog";
 import Contact from "./Contact";
 import $ from "jquery";
 import CV from "../assets/pdf/Rafay-Hussain-CV.pdf";
 import { Link } from "react-router-dom";
-const Home = () => {
-  //Text
-  const firstTexts = ["Software Engineer"];
-  const secondTexts = ["Software Engineer"];
-  const intervalTime = 600;
 
+const firstTexts = ["Software Engineer"];
+const secondTexts = ["Software Engineer"];
+const intervalTime = 600;
+
+const Home = () => {
   const [firstTextIndex, setFirstTextIndex] = useState(0);
   const [secondTextIndex, setSecondTextIndex] = useState(0);
 

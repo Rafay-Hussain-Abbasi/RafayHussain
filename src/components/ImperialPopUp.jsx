@@ -1,5 +1,4 @@
 import React from "react";
-import CloseSvg from "../assets/images/svg/colan-icon.svg";
 import PopUpImg from "../assets/media/Imp1.png";
 import PopUpImg2 from "../assets/media/Imp2.png";
 import PopUpImg3 from "../assets/media/Imp3.png";
@@ -13,7 +12,7 @@ const ImperialPopup = ({ isVisible, onClose }) => {
     <div className={`popup-wrap ${isVisible ? "visible" : ""}`}>
       <div className="popup-box transform-in">
         <img className="pop-up-img1" src={PopUpImg} alt="pop-up-img1" />
-        <a className="close-btn popup-close" href="#" onClick={onClose}>
+        <button type="button" className="close-btn popup-close" onClick={onClose}>
           <svg
             width="40px"
             height="40px"
@@ -47,7 +46,7 @@ const ImperialPopup = ({ isVisible, onClose }) => {
               ></path>
             </g>
           </svg>{" "}
-        </a>
+        </button>
         <p className="corpo">The Imperial Marquee</p>
         <div className="corporate_main">
           <div className="cuberto_main">

@@ -1,9 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import FigmaImg from "../assets/images/figma-img.png";
-import PhotoShopImg from "../assets/images/photoshop-img.png";
 import AdobeImg from "../assets/images/adobe-xd-img.png";
 import ElementoImg from "../assets/images/elementor-img.png";
-import InvisionImg from "../assets/images/invision-img.png";
 import WinnerAward from "../assets/images/googlelogo.png";
 import WinnerAward2 from "../assets/images/mehranUni.png";
 import WinnerAward3 from "../assets/images/police.png";
@@ -13,22 +11,22 @@ import policeCertificate from "../assets/images/7th-Hour.jpg";
 import ACWCertificate from "../assets/images/acw-Participant.png";
 
 const Resume = () => {
-  const colors = [
-    "#BCE70C",
-    "#FF759C",
-    "#00CC97",
-    "#FFDB59",
-    "#6F39FD",
-    "#FF7D61",
-  ];
   const progressRef = useRef(null);
   const hasAnimated = useRef(false); // Track if the animation has already run
 
   useEffect(() => {
+    const colors = [
+      "#BCE70C",
+      "#FF759C",
+      "#00CC97",
+      "#FFDB59",
+      "#6F39FD",
+      "#FF7D61",
+    ];
     const progressSection = progressRef.current;
     const items = progressSection.querySelectorAll(".progress-item");
     const observerOptions = { threshold: 0.1 };
-  
+
     function handleIntersection(entries, observer) {
       if (entries[0].isIntersecting && !hasAnimated.current) {
         items.forEach((item, index) => {
@@ -57,7 +55,7 @@ const Resume = () => {
     observer.observe(progressSection);
   
     return () => observer.disconnect();
-  }, [colors]);
+  }, []);
   
   return (
     <>
